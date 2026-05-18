@@ -18,5 +18,8 @@
   "scripts": {
     "start": "bun run cli.ts"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "get-windows": "^9.3.0"
+  }
 }
