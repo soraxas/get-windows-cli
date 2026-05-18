@@ -1,0 +1,22 @@
+{
+  "name": "get-windows-cli",
+  "version": "0.1.0",
+  "module": "cli.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "bin": {
+    "get-windows": "./cli.ts"
+  },
+  "description": "CLI wrapper around get-windows: print metadata about the active (or all) windows.",
+  "files": [
+    "cli.ts"
+  ],
+  "scripts": {
+    "start": "bun run cli.ts"
+  },
+  "type": "module"
+}
