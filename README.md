@@ -5,7 +5,11 @@ about the active window — or every open window — straight from the shell.
 
 ## Install
 
-This is a Bun project. From inside the repo:
+```sh
+bun install -g https://github.com/soraxas/get-windows-cli
+```
+
+Or you can install it locally. This is a Bun project. From inside the repo:
 
 ```bash
 bun install
